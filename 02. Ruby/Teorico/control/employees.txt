@@ -1,0 +1,5 @@
+Angelo, Manager
+Sebatian, CEO
+Oliver, Junior
+Alex, Sales
+Oscar, Accounting
