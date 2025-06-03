@@ -1,0 +1,7 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["Angelo Mandros <mandros.angelof@pucp.edu.pe>"]
+edition = "2024"
+
+[dependencies]
