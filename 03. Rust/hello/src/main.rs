@@ -37,5 +37,18 @@ fn main() {
     // el shadowing sirve tambien para cambiar el tipo de variable que es
     let meme = "More cowbell";
     let meme = make_image(meme);
-    
+
+    // En Rust no se puede declarar variables sin inicializarlas
+    // Esto se hace para mejorar el el tiempo de compilacion
+    let enigma: i32;
+    //if true {
+    //    enigma = 32; // Esto no garantiza nada, ya que se lee la condicional en tiempo de ejecucion y nada garantiza que valor tendra true
+    //}                // Por ende no se sabe que valor tendra enigma
+    if true {
+        enigma = 32; // Este bloque, sin embargo si garantiza que se inicializara la variable
+    } else {
+        enigma = 7;
+    }
+    println!("{}",enigma);
+    //println!("{}",enigma); // error
 }
