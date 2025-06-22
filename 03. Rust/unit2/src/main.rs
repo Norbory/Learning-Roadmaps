@@ -1,9 +1,13 @@
+use unit2::greet;
+use rand::prelude::*;
+
 fn main() {
     // Aqui lo llamamos
     // let x = do_stuff(2.0,12.5);
-    unit2::greet(); // still won't work for now 
+    greet();
     // starts working when made it public
     // If horrible to use all route
+    println!("Que cosa tocara: {}", rand::rng().random_range(1..=100));
 }
 
 // Aqui veremos funciones
