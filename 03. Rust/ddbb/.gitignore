@@ -1,0 +1,18 @@
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.production
+
+# Archivos de backup con credenciales
+*_backup.rs
+
+# Logs que puedan contener información sensible
+*.log
+
+# Archivos temporales de Oracle
+*.trc
+*.aud
+
+# Carpetas de build
+target/
+Cargo.lock
